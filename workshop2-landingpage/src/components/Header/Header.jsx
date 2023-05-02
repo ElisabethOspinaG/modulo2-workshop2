@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Logo from '../Logo';
+import { HeaderBac } from './StledHeader';
+
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <HeaderBac>
+      <Logo/>
+    </HeaderBac>
   )
 }
 
