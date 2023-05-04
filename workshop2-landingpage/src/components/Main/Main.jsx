@@ -5,6 +5,7 @@ import { MainText } from "./StylesMain";
 import { Title } from "./StylesMain";
 import { Paragraph } from "./StylesMain";
 
+
 const Main = () => {
   return (
     <MainInteractive>
