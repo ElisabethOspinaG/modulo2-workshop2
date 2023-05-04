@@ -6,12 +6,21 @@ export const CardStyled = styled.div `
 width: 100%;
 padding: 50px 180px;
 display: flex;
-justify-content: space-between;
-gap:5px;
-font-family: "Josefin Sans", sans-serif;
-font-size: 16px;
-color: white;
+justify-content: space-between; 
 position: relative;
 flex-wrap: wrap;
+article{
+    background-color: black ;
+    width: 200px;
+}
+img {
+    width: 100%;
+    
+}
+h4{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    color: white;
+}
 
 `
