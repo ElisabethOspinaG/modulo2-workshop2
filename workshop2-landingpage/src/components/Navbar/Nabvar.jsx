@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav } from './StyledNav'
-const Nabvar = () => {
+const Nabvar = ({padding}) => {
     const links = [
         {
             name: "About",
@@ -24,10 +24,10 @@ const Nabvar = () => {
         }
     ]
     return (
-        <Nav>
+        <Nav padding={padding}>
             <ul>
                 {
-                    links.map((item, index) => <a href='#'><li key={`${item.name}-${index}`}>{item.name}</li></a>)
+                    links.map((item, index) => <a href='#' key={`${item.name}-${index}`}><li >{item.name}</li></a>)
                 }
             </ul>
         </Nav>

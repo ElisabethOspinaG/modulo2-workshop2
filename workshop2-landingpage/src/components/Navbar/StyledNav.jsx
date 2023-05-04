@@ -5,7 +5,7 @@ export const Nav = styled.div`
     display: flex;
     justify-content: space-between;
     color: white;
-    padding: 50px 180px 50px 180px;
+    padding: ${props => props.padding};
     align-items: center;
     img{
         width: 15rem; 

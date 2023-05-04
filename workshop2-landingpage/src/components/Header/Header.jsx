@@ -7,8 +7,8 @@ import Nabvar from '../Navbar/Nabvar';
 const Header = () => {
   return (
     <HeaderBac>
-      <Logo/>
-      <Nabvar/>
+      <Logo padding={"50px 180px"}/>
+      <Nabvar padding={"50px 180px"}/>
     </HeaderBac>
   )
 }

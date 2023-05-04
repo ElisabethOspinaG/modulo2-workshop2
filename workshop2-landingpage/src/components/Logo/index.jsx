@@ -3,11 +3,11 @@ import logo from '../../images/logo.svg';
 import { Nav } from './StyledIndex';
 import { Title } from './StyledIndex';
 
-const LogoImg = () => {
+const LogoImg = ({padding}) => {
   
   return (
     <>
-      <Nav>
+      <Nav padding={padding}>
           <figure>
               <img src={logo} alt="logo" />
           </figure>
