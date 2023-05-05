@@ -14,7 +14,7 @@ import imgFisheye from "../../images/desktop/image-fisheye.jpg";
 import { CardStyled } from './StyleCard';
 
 const Galery = () => {
- 
+
     const galeryImg = [
         {
             id: 1,
@@ -57,20 +57,20 @@ const Galery = () => {
             title: "MAKE IT FISHEYE"
         }
     ]
-  return (
-    <CardStyled>
-        {
-            galeryImg.map((card, index) => 
-            <article key={`${card.title}-${index}`}>
-                <figure>
-                    <img src={card.img} alt={card.title} />
-                </figure>
-                <h4> {card.title} </h4>
-            </article>
-        )};
-        
-    </CardStyled>
-  )
+    return (
+
+        <CardStyled>
+            {
+                galeryImg.map((card, index) =>
+                    <article key={`${card.title}-${index}`}>
+                        <figure>
+                            <img src={card.img} alt={card.title} />
+                        </figure>
+                        <h4> {card.title} </h4>
+                    </article>
+                )}
+        </CardStyled>
+    )
 }
 
 export default Galery
