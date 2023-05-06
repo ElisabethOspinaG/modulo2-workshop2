@@ -11,6 +11,7 @@ const Header = () => {
       <Nabvar padding={"50px 180px"}/>
     </HeaderBac>
   )
+  
 }
 
 export default Header

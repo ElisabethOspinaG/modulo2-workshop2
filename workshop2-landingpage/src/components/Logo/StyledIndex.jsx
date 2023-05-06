@@ -10,6 +10,7 @@ export const Nav = styled.div`
     }
     
 `;
+
 export const Title = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
     width: 43%;

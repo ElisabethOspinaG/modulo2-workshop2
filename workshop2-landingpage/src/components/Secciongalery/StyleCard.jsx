@@ -10,6 +10,8 @@ export const TitleCard= styled.div`
     font-family: "Josefin Sans", sans-serif;
     font-size: 28px;
     color: gray;
+
+    
     
     button {
         padding: 10px 20px;
