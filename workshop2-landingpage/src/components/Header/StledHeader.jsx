@@ -14,5 +14,12 @@ export const HeaderBac = styled.header`
 
   @media screen and (max-width: 765px) {
     background-image: url(${ImgheroMobile});
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 399%;
+    height: 300vh;
+    background-size: cover;
+    background-position: center;
   }
 `;
