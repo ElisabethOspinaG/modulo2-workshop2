@@ -8,14 +8,8 @@ export const TitleCard = styled.div`
     justify-content: space-between;
     font-family: "Josefin Sans", sans-serif;
     font-size: 28px;
-    color: gray;
-<<<<<<<<< Temporary merge branch 1
-     
-=========
+    color: black;
 
-    
-    
->>>>>>>>> Temporary merge branch 2
     button {
         padding: 10px 20px;
         background-color: white;
@@ -25,25 +19,24 @@ export const TitleCard = styled.div`
             background-color: black;
             color: white;
             cursor: pointer;
+            transition: background-color .4s ease-out;
         }
         
     }  
-    
-    @media screen and (max-width: 765px) {
-        font-size: 3rem;
-        width: 1100px;
-        text-align: center;
-        align-items: center;
-        font-family: "Josefin Sans", sans-serif;
-        color: gray;
-        /* padding: 50px 180px 50px 320px; */
-        margin: 120px 180px 80px 180px;
-        
-        button {
-            display: none;
+    @media screen and (max-width: 380px) {
+        h2{
+            z-index: 100;
+            position: absolute;
+            left: 10px;
+            top: 1100px;
+            font-weight: lighter;
         }
-
+      button{
+        display: none;
+      }
     }
+    
+    
 `
 export const CardStyled = styled.div`
     
@@ -55,14 +48,8 @@ export const CardStyled = styled.div`
     justify-content: space-between;
     flex-wrap: wrap;
 
-    @media screen and (max-width: 765px) {
-        padding: 0px 0px;
-        width: 1100px;
-        height: auto;
-        background-color: #00b3ff;
-        margin: 120px 180px 300px 180px;
-        display: flex;
-        flex-direction: column;
+    @media screen and (max-width: 380px) {
+       display: none;
     }
 
     article{
@@ -108,34 +95,3 @@ export const CardStyled = styled.div`
     }
 
 `
-// export const FigurePrincipal = styled.figure `
-//     width: 200px;
-//     height: auto;
-//     opacity: 50%;
-//     margin-bottom: 30px;   
-
-//     img{
-//         @media screen and (max-width: 375px) {
-//         display: none; 
-//     }
-
-//     }
-
-// `
-       
-// export const FigureMobile = styled.figure `
-   
-
-//    display: none;
-
-//    img{
-//     @media screen and (max-width: 765px) {
-//     width: 900px;
-//     height: auto;
-//     opacity: 100%;
-//     margin-bottom: 30px;  
-//     }
-
-//    }
-   
-// `
