@@ -25,6 +25,11 @@ export const Nav = styled.div`
             color: white;
             font-weight: 400;
             list-style: none;
+            :hover{
+                font-weight: 800;
+                transition: font-weight 0.2s ease-in;
+            }
         }
+
     }
 `;
