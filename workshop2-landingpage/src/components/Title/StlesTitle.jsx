@@ -23,7 +23,8 @@ export const Titlestyle = styled.div`
     font-family: "Josefin Sans", sans-serif;
     font-size: 4rem;
     color: hsl(0, 0%, 100%);
-    @media screen and (max-width: 390px) {
+    padding: 20px 20px 20px 30px;
+    @media screen and (max-width: 380px) {
       width: 100%;
       position: absolute;
       left: 0px;
