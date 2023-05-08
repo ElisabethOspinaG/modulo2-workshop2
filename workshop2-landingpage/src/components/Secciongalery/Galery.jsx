@@ -85,12 +85,12 @@ const Galery = () => {
         <CardStyled>
             {
                 galeryImg.map((card, index) =>
-                    <section key={`${card.title}-${index}`}>
+                    <article key={`${card.title}-${index}`}>
                         <figure>
                             <img class= "imgPrincipal" src={card.img} alt={card.title} />
                         </figure>
                         <h4> {card.title} </h4>
-                    </section>
+                    </article>
                 )}
         </CardStyled>
     )

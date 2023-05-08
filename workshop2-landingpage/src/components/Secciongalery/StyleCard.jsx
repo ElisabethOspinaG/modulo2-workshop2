@@ -55,6 +55,11 @@ export const CardStyled = styled.div`
     article{
         width: 200px;
         position: relative;
+        :hover{
+            transform: scale(1.1);
+            transition: transform .2s ease-out;
+        }
+        
         @media screen and (max-width: 765px) {
            
            background-color: red;
@@ -92,6 +97,7 @@ export const CardStyled = styled.div`
         left: 20%;
         width: 60%;
         padding-bottom: 20px;
+        font-weight: lighter;
     }
 
 `
