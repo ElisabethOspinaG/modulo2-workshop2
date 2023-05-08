@@ -20,8 +20,31 @@ export const TitleCard = styled.div`
             color: white;
             cursor: pointer;
         }
-    }   
+    }  
+    
+    @media screen and (max-width: 765px) {
+        font-size: 20px;
+        padding: 30px 50px;
+        text-align: center;
+        font-family: "Josefin Sans", sans-serif;
+        color: gray;
+
+        button {
+            display: none;
+        }
+
+    }
 `
+// export const ImagenMobile = styled.img`
+
+// display:none;
+
+// @media screen and (max-width: 765px) {
+//     width: 100%;
+//     opacity: 100%;
+//     margin-bottom: 30px;
+// }
+// `
 
 export const CardStyled = styled.div`
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
@@ -32,22 +55,16 @@ display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 article{
-    /* background-color: black ; */
+    background-color: red;
     width: 200px;
     position: relative;
 }
 img {
     width: 100%;
-    height: 100%;
     opacity: 100%;
-    margin-bottom: 30px;
-
-    
+    margin-bottom: 30px;  
 }
-/* 
-imgMobil{
 
-} */
 h4{
     font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
@@ -61,26 +78,26 @@ h4{
 
 @media screen and (max-width: 765px) {
 width: 100%;
+height: auto;
 background-color: yellow;
-padding: 20px 50px;
+padding: 20px 20px;
 display: inline-block;
-position: relative;
+
     
 article{
     /* background-color: black ; */
-    width: 250px;
+    width: 400px;
     height: 130px;
     }
-img {
+
+    img{
+        display: none;
+    }
+
+    imgMobil{
+     
     width: 100%;
-    height: 100%;
-    opacity: 100%;
-   
-    
-   
-   
-   
-    
+
     }
 }
 
