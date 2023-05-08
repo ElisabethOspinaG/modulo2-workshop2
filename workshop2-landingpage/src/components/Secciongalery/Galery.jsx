@@ -1,7 +1,4 @@
 import React from 'react';
-import { galeryImg } from '../../data/data';
-import data from '../../data/data';
-
 
 import imgHeart from "../../images/desktop/image-deep-earth.jpg";
 import imgHeartMobil from "../../images/mobile/image-deep-earth.jpg";
@@ -28,6 +25,8 @@ import imgFisheye from "../../images/desktop/image-fisheye.jpg";
 import imgFisheyeMobil from "../../images/mobile/image-fisheye.jpg";
 
 import { CardStyled } from './StyleCard';
+// import { FigurePrincipal } from './StyleCard';
+// import { FigureMobile } from './StyleCard';
 
 const Galery = () => {
 
@@ -88,8 +87,10 @@ const Galery = () => {
                 galeryImg.map((card, index) =>
                     <article key={`${card.title}-${index}`}>
                         <figure>
-                            <img src={card.img} alt={card.title} />
-                            <imgMobil src={card.imgMobil} alt={card.title} />
+                            <img class= "imgPrincipal" src={card.img} alt={card.title} />
+                        </figure>
+                        <figure>
+                            <img class= "imgMobile" src={card.imgMobil} alt={card.title} />
                         </figure>
                         <h4> {card.title} </h4>
                     </article>
