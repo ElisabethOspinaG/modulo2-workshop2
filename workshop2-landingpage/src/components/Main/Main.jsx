@@ -9,11 +9,9 @@ import { Paragraph } from "./StylesMain";
 const Main = () => {
   return (
     <MainInteractive>
-      <div>
-        <figure>
-          <img src={imgInteractive} alt="interactivo" />
-        </figure>
-      </div>
+      <figure>
+        <img src={imgInteractive} alt="interactivo" />
+      </figure>
 
       <MainText>
         <Title> THE LEADER IN INTERACTIVE VR</Title>

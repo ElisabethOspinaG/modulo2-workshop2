@@ -36,7 +36,7 @@ export const MainText = styled.div`
 export const Title = styled.h1`
   @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
   font-family: "Josefin Sans", sans-serif;
-  margin: 0px 0px 47px 0px;
+  margin: 0px 0px 42px 0px;
   font-size: 3rem;
   font-weight: lighter;
   display: flex;
@@ -53,6 +53,8 @@ export const Paragraph = styled.p`
   font-family: "Cormorant Garamond", serif;
   color: #8f8c8c;
   @media screen and (max-width: 380px) {
+    width: 100%;
+    margin: 0px 20px 0px 0px;
     padding: 0px 20px 0px 20px;
     text-align: justify;
     font-size: 1rem;
