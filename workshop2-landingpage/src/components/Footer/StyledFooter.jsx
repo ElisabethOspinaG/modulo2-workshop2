@@ -18,12 +18,25 @@ export const Footerstyled = styled.footer`
         font-family: 'Alata', sans-serif;
     }
 
+    /* @media screen and (min-width: 765px){   
+        display: flex;
+        flex-direction: column;
+        width: 1100px;
+        justify-content: center;
+    } */
+
 `;
 export const DivLogoNav = styled.div`
     display: flex;
     flex-direction: column;
     margin: 40px 0px ;
     gap: 10px;
+
+    /* @media screen and (max-width: 765px) {
+      width: 35rem;
+    } */
+
+
 `;
 export const DivRedes = styled.div`
     display: flex;
