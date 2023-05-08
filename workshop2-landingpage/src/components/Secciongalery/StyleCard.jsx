@@ -9,10 +9,13 @@ export const TitleCard = styled.div`
     font-family: "Josefin Sans", sans-serif;
     font-size: 28px;
     color: gray;
+<<<<<<<<< Temporary merge branch 1
+     
+=========
 
     
     
-     
+>>>>>>>>> Temporary merge branch 2
     button {
         padding: 10px 20px;
         background-color: white;
