@@ -28,6 +28,7 @@ export const Nav = styled.div`
             :hover{
                 font-weight: 800;
                 transition: font-weight 0.2s ease-in;
+                text-decoration: underline;
             }
         }
 
