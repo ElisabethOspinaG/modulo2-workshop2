@@ -43,6 +43,9 @@ export const DivRedes = styled.div`
     margin: 40px 0px ;
     gap:  10px;
     margin: 0px 180px;
+   figure:hover{
+        cursor: pointer;
+   }
     @media screen and (max-width: 380px){  
         display: block ;
         width: 100%;
