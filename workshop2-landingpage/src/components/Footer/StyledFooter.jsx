@@ -17,13 +17,11 @@ export const Footerstyled = styled.footer`
         color: white;
         font-family: 'Alata', sans-serif;
     }
-
-    /* @media screen and (min-width: 765px){   
-        display: flex;
-        flex-direction: column;
-        width: 1100px;
-        justify-content: center;
-    } */
+    @media screen and (max-width: 380px){   
+        display: block;
+        position: absolute;
+        right: 2px;
+    }
 
 `;
 export const DivLogoNav = styled.div`
@@ -32,10 +30,10 @@ export const DivLogoNav = styled.div`
     margin: 40px 0px ;
     gap: 10px;
 
-    /* @media screen and (max-width: 765px) {
-      width: 35rem;
-    } */
-
+    @media screen and (max-width: 380px){   
+        display: block;
+        
+    }
 
 `;
 export const DivRedes = styled.div`
