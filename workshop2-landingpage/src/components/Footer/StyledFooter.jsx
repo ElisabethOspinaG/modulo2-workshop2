@@ -12,15 +12,20 @@ export const Footerstyled = styled.footer`
         justify-content: end;
         gap: 18px;
         
+        
     }
     p{
         color: white;
         font-family: 'Alata', sans-serif;
+       
     }
-    @media screen and (max-width: 380px){   
-        display: block;
-        position: absolute;
-        right: 2px;
+    @media screen and (max-width: 380px){  
+        display: block ;
+        width: 100%;
+        figure{
+            width: 100%;
+            justify-content: center;
+        }
     }
 
 `;
@@ -29,11 +34,7 @@ export const DivLogoNav = styled.div`
     flex-direction: column;
     margin: 40px 0px ;
     gap: 10px;
-
-    @media screen and (max-width: 380px){   
-        display: block;
-        
-    }
+    
 
 `;
 export const DivRedes = styled.div`
@@ -42,4 +43,20 @@ export const DivRedes = styled.div`
     margin: 40px 0px ;
     gap:  10px;
     margin: 0px 180px;
+    @media screen and (max-width: 380px){  
+        display: block ;
+        width: 100%;
+        margin: 20px 10px 20px 10px;
+        justify-content: center;
+        figure{
+            width: 100%;
+            justify-content: center;
+        }
+        p{
+            width: 100%;
+            justify-content: center;
+            padding: 10px 0px 20px 10px;
+        }
+    }
+   
 `
