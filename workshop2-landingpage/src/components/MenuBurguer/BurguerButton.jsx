@@ -2,21 +2,14 @@ import React from 'react'
 import { Burger } from './StylesButtonHamburguer'
 
 
-const BurguerButton = () => {
+const BurguerButton = (props) => {
     return (
         <Burger>
-            <div class="icon nav-icon-5">
+            <div onClick={props.handleClick} class={`icon nav-icon-5 ${props.clicked ? 'open' : ''}`}>
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-            {/* <div>
-                <a href="/">About</a>
-                <a href="/">Careers</a>
-                <a href="/">Events</a>
-                <a href="/">Products</a>
-                <a href="/">Support</a>
-            </div> */}
         </Burger>
 
     )
