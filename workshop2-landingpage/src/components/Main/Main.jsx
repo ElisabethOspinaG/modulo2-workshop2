@@ -9,7 +9,7 @@ import { Paragraph } from "./StylesMain";
 const Main = () => {
   return (
     <MainInteractive>
-    <div>
+      <div>
         <figure>
           <img src={imgInteractive} alt="interactivo" />
         </figure>

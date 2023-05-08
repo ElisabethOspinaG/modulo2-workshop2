@@ -7,6 +7,9 @@ export const Nav = styled.div`
     color: white;
     padding: ${props => props.padding};
     align-items: center;
+    @media screen and (max-width: 380px) {
+      display: none;
+    }
     img{
         width: 15rem; 
     }

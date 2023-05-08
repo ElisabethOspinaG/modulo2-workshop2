@@ -5,6 +5,7 @@ import Main from '../Main/Main';
 import Galery from '../Secciongalery/Galery';
 import TitleGalery from '../Secciongalery/TitleGalery';
 import Footer from '../Footer/Footer';
+import GaleryButton from '../Secciongalery/GaleryButton';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Main/>
       <TitleGalery/>
       <Galery/>
+      <GaleryButton/>
       <Footer/>
     </>
   )

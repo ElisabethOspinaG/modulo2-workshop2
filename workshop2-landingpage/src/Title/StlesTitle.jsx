@@ -6,14 +6,15 @@ export const Titlestyle = styled.div`
   position: absolute;
   left: 180px;
   top: 250px;
-  padding: 30px;
+  overflow: hidden;
   border: 2px solid hsl(0, 0%, 100%);
 
-  @media screen and (max-width: 765px) {
-    width: 300%;
+  @media screen and (max-width: 380px) {
     position: absolute;
-    top: 250px;
-    padding: 30px, 180px;
+    left: 10px;
+    width: 91%;
+    height: 40vh;
+    
     border: 2px solid hsl(0, 0%, 100%);
   }
 
@@ -22,8 +23,13 @@ export const Titlestyle = styled.div`
     font-family: "Josefin Sans", sans-serif;
     font-size: 4rem;
     color: hsl(0, 0%, 100%);
-    @media screen and (max-width: 765px) {
-      font-size: 9rem;
+    @media screen and (max-width: 390px) {
+      width: 100%;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      padding: 20px 10px 20px 10px;
+      font-size: 2.8rem;
     }
   }
 `;

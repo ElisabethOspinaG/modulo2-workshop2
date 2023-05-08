@@ -5,13 +5,11 @@ export const MainInteractive = styled.div`
   display: block;
   align-items: center;
 
-  @media screen and (max-width: 765px) {
-    margin: 120px 180px 300px 180px;
-  }
-  img {
-    @media screen and (max-width: 765px) {
-      margin: 180px 5px 30px 5px;
-      width: 1100px;
+  @media screen and (max-width: 380px) {
+    margin: 40px 0px 0px 20px;
+    padding: 0;
+    img{
+      width: 315px
     }
   }
 `;
@@ -25,14 +23,13 @@ export const MainText = styled.div`
   bottom: -556px;
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 380px) {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 2px;
 
-  @media screen and (max-width: 765px) {
-    display: flex;
-    align-items: center;
-    padding: 70px 70px 0px 70px;
-    background-color: #ffffff;
-    width: 1000px;
-    position: initial;
   }
 `;
 
@@ -44,8 +41,9 @@ export const Title = styled.h1`
   font-weight: lighter;
   display: flex;
 
-  @media screen and (max-width: 765px) {
-    font-size: 6rem;
+  @media screen and (max-width: 380px) {
+    font-size: 2rem;
+    padding: 0;
     text-align: center;
   }
 `;
@@ -54,9 +52,10 @@ export const Paragraph = styled.p`
   @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Poppins:wght@300&display=swap");
   font-family: "Cormorant Garamond", serif;
   color: #8f8c8c;
-
-  @media screen and (max-width: 765px) {
-    font-size: 3rem;
+  @media screen and (max-width: 380px) {
+    padding: 0px 20px 0px 20px;
+    text-align: justify;
+    font-size: 1rem;
     text-align: center;
   }
 `;
