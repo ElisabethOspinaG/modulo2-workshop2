@@ -29,6 +29,7 @@ export const Nav = styled.div`
                 font-weight: 800;
                 transition: font-weight 0.2s ease-in;
                 text-decoration: underline;
+                
             }
         }
 
