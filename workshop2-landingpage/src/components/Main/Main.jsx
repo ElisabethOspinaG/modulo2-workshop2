@@ -18,10 +18,10 @@ const Main = () => {
       <MainText>
         <Title> THE LEADER IN INTERACTIVE VR</Title>
         <Paragraph>
-          Founded in 2011, Loppstudios has ben producing world-class vitual
-          reality proyects form some of the vest compalies around the globe. Our
-          award-winning creations have transformed businesses through gital
-          expeeriences that vind to their brand.
+          Founded in 2011, Loopstudios has been producing world-class virtual
+          reality projects form some of the vest companies around the globe. Our
+          award-winning creations have transformed businesses through digital
+          experiences that bind to their brand.
         </Paragraph>
       </MainText>
     </MainInteractive>
